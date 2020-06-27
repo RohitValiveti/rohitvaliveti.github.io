@@ -644,6 +644,10 @@ input[type="submit"]:hover{
 	.up{
 		right:2rem;
 	}
+	
+	header .top-nav .nav-list{
+		display: unset;
+	}
 
 }
 
