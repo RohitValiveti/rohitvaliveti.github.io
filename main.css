@@ -444,9 +444,9 @@ li{
 /*End timeline*/
 
 /*Start contact*/
-.contact{
-	background-color: /*GO TO 1:26:00*/;
-}
+/* .contact{
+	
+} */
 
 form{
 	width: 70%;
@@ -580,7 +580,7 @@ input[type="submit"]:hover{
 		margin: 0 0 0 auto;
 	}
 
-	.timeline .date::efore{
+	.timeline .date::before{
 		left: -20rem;
 	}
 

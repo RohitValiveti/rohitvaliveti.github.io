@@ -54,11 +54,11 @@
           <li>
             <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
-          <!--
-				<li>
-					<a href="#experience" class="nav-link">Experience</a>
-				</li>
-				-->
+
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+
           <li>
             <a href="#contact" class="nav-link">Contact</a>
           </li>
@@ -82,15 +82,16 @@
           <p>
             Hi, I'm Rohit.<br />
             <br />
-            CS Student | Avid Traveler | Basketball Fan<br />
+            CS Student | Avid Traveler | Basketball Fan | Part-Time DJ<br />
             <br />
-            Currently, I'm studying CS at Cornell University. This 
-	    portfolio not only contains my programming projects but is also a 
-	    symbol of my growth.<br />
+            Currently, I'm studying CS at Cornell University. This portfolio not
+            only contains my projects/experiences but is also a symbol of my
+            growth.<br />
             <br />
-            As a student and aspiring developer, I believe my most
-            valuable asset is my abilty to grasp new concepts and frameworks,
-            and I believe my projects and diverse experience are a product of exactly that.<br />
+            As a student and aspiring developer, I believe my most valuable
+            asset is my abilty to grasp new technologies and produce functional
+            projects/features in a short time-frame. My projects and diverse
+            work experiences are a product of exactly that.<br />
             <br />
             Check me out on social platforms below!
           </p>
@@ -170,7 +171,131 @@
           <div
             class="portfolio-img has-margin-right"
             data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <!-- Alternate 'has-margin-right' on portfolio-img & portfolio-description when adding more numbers -->
+            <img src="./images/GeAIco.png" />
+          </div>
+          <div
+            class="portfolio-description"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <h6>Generative AI Web-App</h6>
+            <h1>GeAIco: Geico AI Assistant</h1>
+            <p>
+              Proof of concept AI-Powered assistant for Geico insurance agents.
+              As part of Geico's OpenAI Hackathon, I, along with 5 developers,
+              designed, developed, and presented GeAIco in a week. The goal of
+              GeAIco and the hackathon was to develop an application that
+              reduces time and energy insurance agents spent on common tasks,
+              while maintaining the quality of human agents. Core
+              functionalities include AI Powered Q&A, Email Draft Assistance,
+              Email Reply Assistance, and Virtual Chat Summarization.
+            </p>
+            <a
+              href="https://github.com/RohitValiveti/Fitness-Tracker"
+              class="cta"
+              target="_blank"
+              >Github</a
+            >
+          </div>
+        </div>
+        <!--End item div -->
+
+        <div class="portfolio-item">
+          <!--Copy this div for more items -->
+          <div
+            class="portfolio-description has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            <h6>Machine Learning</h6>
+            <h1>Spotify Music Recommender</h1>
+            <p>
+              Content-based machine learning recommendation algorithm that uses
+              Spotify API & cosine similarity to suggest songs based on
+              playlists. Preprocessed dataset of over 230k songs using Pandas,
+              identifying key audio features & vectorizing tracks to improve
+              algorithm results. Optimized model to produce recommendations at
+              ~80% accuracy rate compared to Spotify’s recommendations through
+              parameter tuning. Integrating ML model into a mobile app using
+              React Native & Flask to provide authenticated users with
+              personalized recommendations
+            </p>
+            <a
+              href="https://github.com/RohitValiveti/music-discovery-app"
+              class="cta"
+              target="_blank"
+              >Github</a
+            >
+          </div>
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="200">
+            <img src="./images/recommender.png" />
+          </div>
+        </div>
+        <!--End item div -->
+
+        <div class="portfolio-item">
+          <!--Copy this div for more items -->
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
             data-aos-delay="300"
+          >
+            <!-- Alternate 'has-margin-right' on portfolio-img & portfolio-description when adding more numbers -->
+            <img src="./images/fitness-tracker.png" />
+          </div>
+          <div
+            class="portfolio-description"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            <h6>Backend Development</h6>
+            <h1>Fitness Tracker</h1>
+            <p>
+              App to monitor health/fitness: features include weight tracking,
+              health file storage via S3 buckets, user competitions, & email
+              notifications via SendGrid. Leveraging flask to build schemas &
+              Rest API while testing endpoints w/ Postman; created relational
+              SQL database with SQLAlchemy. Implementing HTTP token
+              authentication via cookies for user authentication; containerizing
+              & deploying server using Docker & Heroku
+            </p>
+            <a
+              href="https://github.com/RohitValiveti/Fitness-Tracker"
+              class="cta"
+              target="_blank"
+              >Github</a
+            >
+          </div>
+        </div>
+        <!--End item div -->
+
+        <div class="portfolio-item">
+          <!--Copy this div for more items -->
+          <div
+            class="portfolio-description"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          >
+            <h6>iOS Application</h6>
+            <h1>Space-Scout: Social Media App</h1>
+            <p>
+              "Twitter-like" social media app themed around Astronomy. Developed
+              using UIKit, Google Firebase, and Firestore.
+            </p>
+            <a
+              href="https://github.com/RohitValiveti/Space-Scout"
+              class="cta"
+              target="_blank"
+              >View App</a
+            >
+          </div>
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-left"
+            data-aos-delay="400"
           >
             <!-- Alternate 'has-margin-right' on portfolio-img & portfolio-description when adding more numbers -->
             <img
@@ -186,22 +311,36 @@
               style="max-width: 190px; height: auto"
             />
           </div>
+        </div>
+        <!--End item div -->
+
+        <div class="portfolio-item">
+          <!--Copy this div for more items -->
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
+            <!-- Alternate 'has-margin-right' on portfolio-img & portfolio-description when adding more numbers -->
+            <img src="./images/spacesite.png" />
+          </div>
           <div
             class="portfolio-description"
             data-aos="fade-left"
-            data-aos-delay="300"
+            data-aos-delay="500"
           >
-            <h6>iOS Application</h6>
-            <h1>Space-Scout: Social Media App</h1>
+            <h6>Deep Learning Model</h6>
+            <h1>Astronomical Object Classifier Web App</h1>
             <p>
-              "Twitter-like" social media app themed around Astronomy. Developed
-              using UIKit, Google Firebase, and Firestore.
+              Fast ai + Pytorch Image classifier trained to classify
+              astronomical objects. Linked is a video demonstrating the web app
+              in use.
             </p>
             <a
-              href="https://github.com/RohitValiveti/Space-Scout"
+              href="https://github.com/RohitValiveti/SpaceClassifier"
               class="cta"
               target="_blank"
-              >View App</a
+              >Github</a
             >
           </div>
         </div>
@@ -215,61 +354,6 @@
             data-aos-delay="600"
           >
             <h6>Web Development</h6>
-            <h1>VapTales Website</h1>
-            <p>
-              Worked closely with CEO to redesign specific components of
-              website.
-            </p>
-            <a href="https://www.vaptales.com/" class="cta" target="_blank"
-              >View Site</a
-            >
-          </div>
-          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="600">
-            <img src="./images/Vaptales.png" />
-          </div>
-        </div>
-        <!--End item div -->
-
-        <div class="portfolio-item">
-          <!--Copy this div for more items -->
-          <div
-            class="portfolio-img has-margin-right"
-            data-aos="fade-right"
-            data-aos-delay="900"
-          >
-            <!-- Alternate 'has-margin-right' on portfolio-img & portfolio-description when adding more numbers -->
-            <img src="./images/spacesite.png" />
-          </div>
-          <div
-            class="portfolio-description"
-            data-aos="fade-left"
-            data-aos-delay="900"
-          >
-            <h6>Deep Learning Model</h6>
-            <h1>Astronomical Object Classifier Web App</h1>
-            <p>
-              Fast ai + Pytorch Image classifier trained to classify
-              astronomical objects. Linked is a video demonstrating the web app
-              in use.
-            </p>
-            <a
-              href="https://www.youtube.com/watch?v=exLzf268nKo&feature=youtu.be&ab_channel=RohitValiveti"
-              class="cta"
-              target="_blank"
-              >View Site</a
-            >
-          </div>
-        </div>
-        <!--End item div -->
-
-        <div class="portfolio-item">
-          <!--Copy this div for more items -->
-          <div
-            class="portfolio-description has-margin-right"
-            data-aos="fade-right"
-            data-aos-delay="1000"
-          >
-            <h6>Web Development</h6>
             <h1>Podcast Website</h1>
             <p>
               A website to showcase a sports podcast - The Concession Stand.
@@ -278,35 +362,65 @@
               >View Site</a
             >
           </div>
-          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="600">
             <img src="./images/portitem2.png" />
           </div>
         </div>
         <!--End item div -->
-
-        
       </div>
     </section>
-    <!--
-	<section class="experience" id="experience">
-		<div class="container">
-			<div class="section-heading">
-				<h1>Work Experience</h1>
-				<h6>Past and current jobs</h6>
-			</div>
-			<div class="timeline" data-aos="fade-down" data-aos-delay="300">
-				<ul> 
-					<li class="date" data-date="2019 - Present"> 
-						<h1>Freelancer</h1>
-						<p>
-							I pursue independent projects and help family/friends create their own websites.
-						</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
--->
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experience</h1>
+          <h6>Past and Current jobs</h6>
+        </div>
+        <!----->
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="June 2023 - Present">
+              <h1>Geico</h1>
+              <p>Software Engineering Intern at Geico in Chevy Chase, MD.</p>
+            </li>
+            <li class="date" data-date="June - Aug 2022">
+              <h1>Riverside Research</h1>
+              <p>
+                Software Engineering Intern II at Riverside Research in
+                Lexington, MA.
+              </p>
+            </li>
+            <li class="date" data-date="Aug 2022 - Present">
+              <h1>Cornell Ann S. Bowers College of Computing</h1>
+              <p>
+                Teaching Assistant for CS 3110: Functional Programming & Data
+                Structures
+              </p>
+            </li>
+            <li class="date" data-date="Feb 2022 - Present">
+              <h1>Cornell Design & Tech Initiative (DTI)</h1>
+              <p>Software Developer Cornell DTI in Ithaca, NY.</p>
+            </li>
+            <li class="date" data-date="Feb - May 2022">
+              <h1>Cornell Space Systems Design Studio - Cislunar Explorers</h1>
+              <p>
+                Flight Software Developer Cornell Space Systems Club in Ithaca,
+                NY.
+              </p>
+            </li>
+            <li class="date" data-date="June - Aug 2021">
+              <h1>Riverside Research</h1>
+              <p>
+                Software Engineering Intern I at Riverside Research in
+                Lexington, MA.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!----->
+      </div>
+    </section>
+
     <section class="contact" id="contact">
       <div class="container">
         <div class="section-heading">
@@ -362,7 +476,7 @@
       <div class="up" id="up">
         <i class="fas fa-chevron-up"></i>
       </div>
-      <p>&copy; 2021 Rohit Valiveti</p>
+      <p>&copy; 2023 Rohit Valiveti</p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
